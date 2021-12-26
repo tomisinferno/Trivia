@@ -1,0 +1,31 @@
+/*
+// Author: Tomi
+// Date: 15/11/2021
+// Purpose: Assignment 4, Stylesheet for assignment
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); /*Font imported*/
+
+* {
+    font-family: 'Montserrat', sans-serif; /*Font used on website*/
+/important;
+}
+
+html {
+    background-image: linear-gradient(to bottom, #6495ed 0, #0a214a 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+body{
+    background-color: transparent;
+}
+
+#container{
+    padding: 10px;
+    border: solid 1px grey;
+    width: 70%;
+    margin: 15px auto auto auto;
+    background-color: white;
+    border-radius: 0.5em;
+}
